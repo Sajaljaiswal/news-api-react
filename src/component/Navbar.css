@@ -1,0 +1,62 @@
+body {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0px;
+    padding: 0px;
+    background-size: contain;
+}
+
+.header {
+
+    background-color: rgb(244, 235, 235);
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+
+}
+
+.left div {
+    line-height: 52px;
+    font-size: 26px;
+    text-align: center;
+}
+
+.mid {
+    display: block;
+    width: 60%;
+    margin: 0px auto;
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 43px;
+    display: inline-block;
+
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 17px;
+}
+
+.navbar li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 8px 16px;
+
+}
+
+.navbar li a:hover {
+
+    color: grey;
+    border: 2px solid rgb(1, 1, 1);
+    border-radius: 10px;
+
+}

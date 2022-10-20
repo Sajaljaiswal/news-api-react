@@ -1,0 +1,38 @@
+body {
+    background-color: aliceblue;
+}
+
+.h1style {
+    margin-left: 500px;
+}
+
+.content {
+    height: 100%;
+    display: flex;
+    margin: 32px 60px;
+    padding: 9px;
+    position: relative;
+}
+
+
+
+.content-left {
+    font-family: var(--font1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 49px;
+    z-index: 1;
+}
+
+.content-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-right img {
+    height: 340px;
+    border: 2px solid rgb(100, 137, 231);
+    border-radius: 50px;
+}
